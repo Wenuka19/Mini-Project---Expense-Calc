@@ -17,8 +17,8 @@ body {
     background-color: white;
     max-width: 1000px;
 
-    margin: 50px auto;
-    padding-top: 5px;
+    margin: 60px auto;
+    padding: 5px;
     border-radius: 5px;
 }
 
@@ -63,4 +63,12 @@ input#expense-name {
 .add-btn {
     margin-left: 13px;
     margin-top: 10px;
+}
+
+.expense-table {
+    margin: 25px;
+}
+
+.main-container>h5 {
+    margin-left: 25px;
 }
