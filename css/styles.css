@@ -46,7 +46,7 @@ input#amount {
     margin-left: 5px;
 }
 
-label#expense-name {
+label#expense-label {
     width: 90%;
 }
 
@@ -60,6 +60,10 @@ input#expense-name {
     width: 50%;
 }
 
+#amount {
+    width: 53%;
+}
+
 .add-btn {
     margin-left: 13px;
     margin-top: 10px;
@@ -71,4 +75,9 @@ input#expense-name {
 
 .main-container>h5 {
     margin-left: 25px;
+}
+
+.not-active {
+    opacity: 0.6;
+    pointer-events: none;
 }
